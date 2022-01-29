@@ -15,8 +15,8 @@ function AboutMe() {
         />
       </div>
       <div className="w-75 p-10 md:w-2/6">
-        <h2 className="text-3xl font-bold md:text-4xl  md:w-96 break-words">Yi-An (Andy) Chang</h2>
-        <p className=" break-words text-2xl md:w-80">Web Developer ( Frontend / Backend )</p>
+        <h2 className="text-2xl font-bold md:text-4xl  md:w-96 break-words">Yi-An (Andy) Chang</h2>
+        <p className=" break-words text-xl md:w-80">Web Developer ( Frontend / Backend )</p>
       </div>
     </div>
   )

@@ -4,9 +4,9 @@ import logo from '../img/Logo.svg'
 
 function Navbar() {
   return (
-    <div className="font-mono
+    <div className="sticky top-0 font-mono
      flex h-20 items-center pl-10 md:pl-64 space-x-12 bg-orange-50 text-black ">
-      <div className="flex">
+      <div className="sticky flex">
         <Image src={logo} alt="React Logo" width="50" height="50"></Image>
         <div className="px-4 text-4xl md:text-5xl font-bold ">Yi-An Chang</div>
       </div>

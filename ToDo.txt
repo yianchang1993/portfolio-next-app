@@ -1,0 +1,6 @@
+[] skills page 
+[] route button to correct link 
+[] route project image to project live site 
+[] improve project card eg. tag etc. 
+[] add framer motion 
+[] three.js ?

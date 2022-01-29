@@ -1,6 +1,7 @@
 import React from 'react'
 // import {projectsConsts} from '../constants/project'
 
+
 export const projects = [
   {
     title: 'Sporify Clone',
@@ -26,6 +27,7 @@ export const projects = [
 function Projects() {
   return (
     <div className="py-10">
+    
       <div className="px-4">
         <h2 className="mt-80 md:mt-1 text-lg font-bold underline decoration-solid">
           Projects
@@ -48,6 +50,7 @@ function Projects() {
         </div>
       </div>
       <br />
+      
     </div>
   )
 }

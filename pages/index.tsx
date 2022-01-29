@@ -13,7 +13,6 @@ export default function Home() {
       </Head>
 
       <main className="">
-      
         <Navbar/>
         <Content/>
         <section>

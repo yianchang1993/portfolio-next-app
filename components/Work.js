@@ -2,7 +2,7 @@ import React from 'react'
 
 function Work() {
   return (
-    <div className="py-10 relative">
+    <div className="py-10 ">
       <div className="px-4">
         <h2 className="text-lg font-bold underline decoration-solid">Work</h2>
       </div>
@@ -12,8 +12,12 @@ function Work() {
         detail this is something about my work detail.this is something about my
         work detail
       </p>
-      <br/>
-      <button className="text-white absolute right-0 w-48 h-10 bg-blue-400 rounded-lg mx-5 sm:mx-10 md:mx-20">My Linkedin</button>
+      <br />
+      <div className="flex justify-center">
+        <button className=" h-10 w-48 rounded-lg bg-blue-400 text-white  ">
+          My Linkedin
+        </button>
+      </div>
     </div>
   )
 }

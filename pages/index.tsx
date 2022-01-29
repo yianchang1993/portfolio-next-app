@@ -13,10 +13,9 @@ export default function Home() {
       </Head>
 
       <main className="">
-        <Navbar/>
+        {/* <Navbar/> */}
         <Content/>
         <section>
-          
         </section>
       </main>
 

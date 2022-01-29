@@ -11,15 +11,15 @@ function FindMe() {
         </h2>
       </div>
       <br />
-      <div className="">
+      <div className="px-16">
         <div>
-          <button className="flex h-10 w-96 items-center justify-center  space-x-3 rounded text-green-600 hover:bg-blue-300 hover:text-white"
+          <button className="flex h-10 w-48 items-center justify-center  space-x-3 rounded text-green-600 hover:bg-blue-300 hover:text-white"
           onClick={()=>window.location='https://google.com'} >
             <GitHubIcon /> <p>GitHub</p>
           </button>
         </div>
         <div>
-          <button className="flex h-10 w-96 items-center justify-center space-x-3 rounded text-green-600 hover:bg-blue-300 hover:text-white"
+          <button className="flex h-10 w-48 items-center justify-center space-x-3 rounded text-green-600 hover:bg-blue-300 hover:text-white"
           onClick={()=>window.location='https://google.com'}>
             <LinkedInIcon />
             <p>LindedIn</p>

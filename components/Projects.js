@@ -30,17 +30,20 @@ function Projects() {
         <h2 className="text-lg font-bold underline decoration-solid">
           Projects
         </h2>
-        <div className="grid grid-cols-2">
+        <div className="grid grid-cols-1 md:grid-cols-2">
           {projects.map((project, i) => (
-            <div key={i} className="p-10">
-              <img className="h-48 w-96 rounded-lg" src={project.image} />
-              <div className="pt flex w-96 justify-center pt-5 font-bold">
+            <div className="flex justify-center">
+            <div key={i} className="pt-10 ">
+              <img className="m-10 h-40 w-80 rounded-lg sm:h-48 " src={project.image} />
+              <div className="pt-5 font-bold flex justify-center">
                 <h3>{project.title}</h3>
               </div>
-              <div className="w-96 p-5">
-                <p>{project.description}</p>
+              <div className="w-96 ml-3">
+                <p className="m-10 break-words">{project.description}</p>
               </div>
             </div>
+            </div>
+            
           ))}
         </div>
       </div>

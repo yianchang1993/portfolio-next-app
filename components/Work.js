@@ -10,11 +10,23 @@ function Work() {
       <p className="px-4">
         this is something about my work detail this is something about my work
         detail this is something about my work detail.this is something about my
-        work detail
+        work detail this is something about my work detail this is something about my work
+        detail this is something about my work detail.this is something about my
+        work detailthis is something about my work detail this is something about my work
+        detail this is something about my work detail.this is something about my
+        work detailthis is something about my work detail this is something about my work
+        detail this is something about my work detail.this is something about my
+        work detailthis is something about my work detail this is something about my work
+        detail this is something about my work detail.this is something about my
+        work detailthis is something about my work detail this is something about my work
+        detail this is something about my work detail.this is something about my
+        work detailthis is something about my work detail this is something about my work
+        detail this is something about my work detail.this is something about my
+        work detail My Boss is Bullshit
       </p>
       <br />
       <div className="flex justify-center">
-        <button className=" h-10 w-48 rounded-lg bg-blue-400 text-white  ">
+        <button className=" h-10 w-48 rounded-lg bg-blue-400 text-white hover:bg-blue-300 ">
           My Linkedin
         </button>
       </div>

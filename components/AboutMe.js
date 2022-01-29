@@ -11,12 +11,11 @@ function AboutMe() {
       </div>
       <div className="flex items-center p-3 justify-center">
         <img
-          className=" border rounded-full border-white"
+          className="border-2 rounded-full border-white w-96 h-96 md:w-48 md:h-48
+          "
           layout="intrinsic"
           src='https://i.imgur.com/exG81pU.png'
           alt="profile-photo"
-          width="100"
-          height="100"
         />
       </div>
     </div>

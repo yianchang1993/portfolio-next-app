@@ -3,7 +3,7 @@ import React, { useState } from 'react'
 import logo from '../img/Logo.svg'
 import { MenuIcon } from '@heroicons/react/outline'
 import SwipeableDrawer from '@mui/material/SwipeableDrawer'
-import Link from 'next/Link'
+import Link from 'next/link'
 
 function Navbar({ children }) {
   const [open, setIsOpen] = useState(false)

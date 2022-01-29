@@ -15,11 +15,6 @@ function Bio() {
           <p className="px-2">QUT IT Master Degree</p>
           <p className="text-lg font-bold">2020 to Present</p>
           <p className="px-2">Software Engineer at My Community Directory</p>
-
-          {/* some bio stuffsome bio stuffsome bio stuffsome bio stuffsome bio
-        stuffsome bio stuffsome bio stuffsome bio stuffsome bio stuffsome bio
-        stuffsome bio stuffsome bio stuffsome bio stuffsome bio stuffsome bio
-        stuffsome bio stuffsome bio stuffsome bio stuffsome bio stuffsome  bio stuffsome  bio stuffsome  bio stuffsome  bio stuffsome  bio stuffsome  bio stuffsome  bio stuffsome  bio stuffsome  bio stuffsome  bio stuffsome  bio stuffsome  bio stuffsome  bio stuffsome  bio stuff */}
         </div>
       </div>
     </div>

@@ -17,9 +17,9 @@ function Navbar() {
         className="flex
      h-20 items-center space-x-12 bg-orange-50 pl-10 font-mono text-black md:pl-64 "
       >
-        <div className="sticky flex">
+        <div className="sticky flex cursor-pointer" onClick={()=>window.location = "/"}>
           <Image src={logo} alt="React Logo" width="50" height="50"></Image>
-          <div className="px-2 text-3xl justify-center items-center font-bold md:text-5xl ">
+          <div className="flex px-2 text-3xl justify-center items-center font-bold md:text-5xl ">
             Yi-An Chang
           </div>
         </div>
@@ -42,8 +42,8 @@ function Navbar() {
       <SwipeableDrawer anchor="right" open={open} onOpen={()=>setIsOpen(true)} onClose={()=>setIsOpen(false)}>
       <ul className="w-80 bg-backgoundColor h-screen">
         <li className="h-20 hover:bg-blue-300 cursor-pointer text-2xl font-bold"><div className="p-4">Work</div></li>
-        <li className="h-20 hover:bg-blue-300 cursor-pointer text-2xl font-bold"><div className="p-4">Skill</div></li>
-        <li className="h-20 hover:bg-blue-300 cursor-pointer text-2xl font-bold"><div className="p-4">Project</div></li>
+        <li className="h-20 hover:bg-blue-300 cursor-pointer text-2xl font-bold"><div className="p-4">Skills</div></li>
+        <li className="h-20 hover:bg-blue-300 cursor-pointer text-2xl font-bold"><div className="p-4">Projects</div></li>
       </ul>
       </SwipeableDrawer>
     </header>

@@ -26,7 +26,8 @@ function Work() {
       </p>
       <br />
       <div className="flex justify-center">
-        <button className=" h-10 w-48 rounded-lg bg-blue-400 text-white hover:bg-blue-300 ">
+        <button className=" h-10 w-48 rounded-lg bg-blue-400 text-white hover:bg-blue-300"
+        onClick={()=>window.location='https://google.com'}>
           My Linkedin
         </button>
       </div>

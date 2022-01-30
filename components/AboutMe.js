@@ -1,4 +1,5 @@
 import React from 'react'
+import { motion } from 'framer-motion'
 
 function AboutMe() {
   return (
@@ -12,14 +13,18 @@ function AboutMe() {
           alt="profile-photo"
         />
       </div>
-      <div className="w-75 p-10 md:w-2/6">
+      <motion.div className="w-75 p-10 md:w-2/6"
+       initial={{opacity: 0,x:-200}}
+       animate={{opacity: 1,x:0}}
+       transition={{duration:2}}
+      >
         <h2 className="break-words text-2xl font-bold  md:w-96 md:text-4xl">
           Yi-An (Andy) Chang
         </h2>
         <p className=" break-words text-xl md:w-80">
           Web Developer ( Frontend / Backend )
         </p>
-      </div>
+      </motion.div>
     </div>
   )
 }

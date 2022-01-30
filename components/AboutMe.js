@@ -21,8 +21,8 @@ function AboutMe() {
         <h2 className="break-words text-2xl font-bold  md:w-96 md:text-4xl">
           Yi-An (Andy) Chang
         </h2>
-        <p className=" break-words text-xl md:w-80">
-          Web Developer ( Frontend / Backend )
+        <p className="break-words text-lg md:w-80 pt-5">
+          Web Developer <br/>( Frontend / Backend )
         </p>
       </motion.div>
     </div>

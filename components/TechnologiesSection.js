@@ -38,7 +38,17 @@ function TechnologiesSection() {
               </motion.li>
               <motion.li whileHover={{ scale: 0.9 }}>
                 <div className="m-1 flex h-12 items-center justify-center rounded-lg bg-blue-200">
+                  Redux
+                </div>
+              </motion.li>
+              <motion.li whileHover={{ scale: 0.9 }}>
+                <div className="m-1 flex h-12 items-center justify-center rounded-lg bg-blue-200">
                   NEXT.js
+                </div>
+              </motion.li>
+              <motion.li whileHover={{ scale: 0.9 }}>
+                <div className="m-1 flex h-12 items-center justify-center rounded-lg bg-blue-200">
+                  Recoil
                 </div>
               </motion.li>
               <motion.li whileHover={{ scale: 0.9 }}>
@@ -68,7 +78,7 @@ function TechnologiesSection() {
               </motion.li>
               <motion.li whileHover={{ scale: 0.9 }}>
                 <div className="m-1 flex h-12 items-center justify-center rounded-lg bg-blue-200">
-                  <p className="p-5">SQL Server</p>
+                  <p className="p-3">SQL Server</p>
                 </div>
               </motion.li>
             </ul>

@@ -2,10 +2,10 @@ import React from 'react'
 
 function Work() {
   return (
-    <div className="py-10 ">
+    <div className="py-3 ">
       <div className="px-4">
         <h2 className="text-lg font-bold underline decoration-solid">
-          About me{' '}
+          About me
         </h2>
       </div>
       <br />

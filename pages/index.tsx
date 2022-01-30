@@ -12,7 +12,7 @@ export default function Home() {
 
       <main className="">
         <Content />
-        <section></section>
+        {/* <section></section> */}
       </main>
 
       <footer className="bg-backgoundColor p-3 text-sm">

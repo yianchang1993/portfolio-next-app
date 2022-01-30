@@ -22,12 +22,12 @@ function Navbar({ children }) {
         >
           <Link href="/">
             <motion.div className="sticky flex cursor-pointer" animate={{y:0}} initial={{y:-250}}>
-              <motion.div whileHover={{rotateZ:-10}} animate={{y:0}} initial={{y:-250}}>
+              <motion.div whileHover={{rotateZ:-10}} animate={{y:5}} initial={{y:-250}}>
                 <Image
                   src={logo}
                   alt="React Logo"
-                  width="50"
-                  height="50"
+                  width="45"
+                  height="45"
                 ></Image>
               </motion.div>
 
@@ -38,15 +38,15 @@ function Navbar({ children }) {
           </Link>
 
           <ul className="ml-20 hidden space-x-5 md:inline-flex md:space-x-10">
-            <Link href="/">
+            {/* <Link href="/">
               <motion.li className="cursor-pointer text-sm font-medium md:text-lg" whileHover={{scale:1.2}}>
                 Work
               </motion.li>
-            </Link>
+            </Link> */}
 
-            <Link href="/">
+            <Link href="/Technologies">
               <motion.li className="cursor-pointer text-sm font-medium md:text-lg" whileHover={{scale:1.2}}>
-                Skills
+                Technologies
               </motion.li>
             </Link>
 
@@ -72,15 +72,15 @@ function Navbar({ children }) {
                 className="h-20 cursor-pointer text-2xl font-bold hover:bg-blue-300"
                 onClick={() => setIsOpen(false)}
               >
-                <div className="p-4">Work</div>
+                <div className="p-4">Home</div>
               </li>
             </Link>
-            <Link href="/">
+            <Link href="/Technologies">
               <li
                 className="h-20 cursor-pointer text-2xl font-bold hover:bg-blue-300"
                 onClick={() => setIsOpen(false)}
               >
-                <div className="p-4">Skills</div>
+                <div className="p-4">Technologies</div>
               </li>
             </Link>
             <Link href="/Projects">

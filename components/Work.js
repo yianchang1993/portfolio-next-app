@@ -11,9 +11,9 @@ function Work() {
       <br />
       <p className="px-4 text-2xl m-3">
         I am a Full-stack developer based in Brisbane. With the passion of
-        technoloy, I would love to solve any kinds of business problems using my
-        experience and skills. I am also eager to learn new technology in order
-        to deilver best solutions for business.
+        technoloy, I love to solve any kinds of business problems based on my
+        experiences and skills. I am also eager to learn new technology in order
+        to deliver best solutions for business.
       </p>
       <br />
       <div className="flex justify-center">

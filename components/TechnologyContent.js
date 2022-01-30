@@ -9,7 +9,7 @@ export default function TechnologyContent() {
       <motion.div className="
        mx-16 md:px-40 space-y-5 overflow-hidden"
        initial={{opacity: 0,y:-40}}
-       animate={{opacity: 1,y:0}}
+       animate={{opacity: 1,y:0, x:15}}
        transition={{duration:2}}
        >
         <TechnologiesSection/>

@@ -4,9 +4,9 @@ import React from 'react'
 
 export const projects = [
   {
-    title: 'Sporify Clone',
+    title: 'Spotify Clone',
     description:
-      'Using Next.js TailwindCss and NextAuth to build a clone page of Spotify. Using SpotifyApi to fetch playlist info and control music',
+      'Using Next.js, TailwindCss to build a clone page of Spotify. SpotifyApi to fetch playlist info and control music. The state management is create by Recoil and the NextAuth for authentication',
     image: 'https://i.imgur.com/Puq3QdX.png',
     tags: ['Next.js', 'tailwindcss', 'React', 'SpotifyAPI', 'nextauth'],
     source: 'https://google.com',

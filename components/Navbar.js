@@ -31,7 +31,7 @@ function Navbar({ children }) {
                 ></Image>
               </motion.div>
 
-              <div className="flex items-center justify-center px-2 text-3xl font-bold md:text-5xl ">
+              <div className="flex items-center justify-center px-3 text-3xl font-bold md:text-4xl ">
                 Yi-An Chang
               </div>
             </motion.div>

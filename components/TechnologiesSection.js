@@ -66,6 +66,11 @@ function TechnologiesSection() {
                   <p className="p-5">Microsoft Azure</p>
                 </div>
               </motion.li>
+              <motion.li whileHover={{ scale: 0.9 }}>
+                <div className="m-1 flex h-12 items-center justify-center rounded-lg bg-blue-200">
+                  <p className="p-5">SQL Server</p>
+                </div>
+              </motion.li>
             </ul>
           </div>
           <div className="sm:pl-48">

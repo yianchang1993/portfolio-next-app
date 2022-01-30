@@ -10,7 +10,7 @@ export const projects = [
     image: 'https://i.imgur.com/Puq3QdX.png',
     tags: ['Next.js', 'tailwindcss', 'React', 'SpotifyAPI', 'nextauth'],
     source: 'https://google.com',
-    visit: 'https://google.com',
+    visit: 'https://project-spotify.vercel.app/',
     id: 0,
   },
   {
@@ -20,7 +20,7 @@ export const projects = [
     image: 'https://i.imgur.com/vvsAg99.png',
     tags: ['React', 'WebRTC'],
     source: 'https://google.com',
-    visit: 'https://google.com',
+    visit: 'https://video-chat-app-andy.netlify.app/',
     id: 2,
   },
 ]
@@ -40,7 +40,8 @@ function Projects() {
             <motion.div className="flex justify-center"
             whileHover={{scale:1.1}}
             >
-              <div key={i} className="cursor-pointer pt-10">
+              <div key={i} className="cursor-pointer pt-10"
+              onClick={()=>window.location=`${project.visit}`}>
                 <img
                   className="m-10 h-40 w-80 rounded-lg sm:h-48 "
                   src={project.image}

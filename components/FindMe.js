@@ -14,13 +14,13 @@ function FindMe() {
       <div className="px-16">
         <div>
           <button className="flex h-10 w-48 items-center justify-center  space-x-3 rounded text-green-600 hover:bg-blue-300 hover:text-white"
-          onClick={()=>window.location='https://google.com'} >
+          onClick={()=>window.location='https://github.com/yianchang1993'} >
             <GitHubIcon /> <p>GitHub</p>
           </button>
         </div>
         <div>
           <button className="flex h-10 w-48 items-center justify-center space-x-3 rounded text-green-600 hover:bg-blue-300 hover:text-white"
-          onClick={()=>window.location='https://google.com'}>
+          onClick={()=>window.location='https://www.linkedin.com/in/yi-an-andy-chang-53649bb3/'}>
             <LinkedInIcon />
             <p>LindedIn</p>
           </button>

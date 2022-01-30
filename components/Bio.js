@@ -10,7 +10,7 @@ function Bio() {
       <div className="flex justify-center">
         <div className="grid grid-cols-2 items-center justify-center space-y-5 p-10 md:w-2/3">
         <p className="text-lg font-bold">1993</p>
-          <p className="px-2 pb-5 text-sm">Bron in Tapei, Taiwan</p>
+          <p className="px-2 pb-5 text-sm">Born in Tapei, Taiwan</p>
           <p className="text-lg font-bold">2015</p>
           <p className="px-2 pb-5 text-sm">FJU Bachelor of Electrical Engineering</p>
           <p className="text-lg font-bold">2019</p>
